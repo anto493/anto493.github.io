@@ -1,3 +1,9 @@
+.flex-container{
+  display:flex;
+  align-content:center;
+  flex-flow: column wrap;
+  justify-content: center;
+}
 
 body {
  margin: 0;
@@ -77,14 +83,15 @@ color: white;
 footer {
     
     height: 40px;
-    width: 77%;
+    width: 100%;
     background-color:#2f3640;
-    clear: both;
+    align-content: center;
 }
 
 ul {
   list-style-type: none;
-    margin-left: 50%;
+    text-align: center;
+    width: 100%;
     
 }
 
@@ -96,5 +103,6 @@ li a {
   font-size: 15px;
   padding: 13px;
   text-decoration: none;
+    text-align: center;
     
 }
