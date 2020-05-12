@@ -45,8 +45,11 @@
 <script type="text/javascript">
 window.onscroll = function() {scrollFunction()};
 
+
 function scrollFunction() {
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    var h = window.innerHeight;
+    var diff = h- 70 ;
+    if (document.body.scrollTop > diff || document.documentElement.scrollTop > diff) {
         document.getElementById("navbar").style.top = "0px";
   } else {
         document.getElementById("navbar").style.top = "-80px";
