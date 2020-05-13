@@ -126,9 +126,14 @@ body {
 
 /* TEAM */
 
-#team {
+#team-section {
     width: 100%;
+    height: 100vh;
+}
 
+#description {
+    padding-top: 30px;
+    width: 100%;
 }
 
 .teamimg {
@@ -149,7 +154,7 @@ h3 {
     color: #3C3C3C;
 }
 
-p {
+.paragraph {
     font-family: "Nunito", sans-serif;
     color: #707070;
     margin-top: 10px;
@@ -161,21 +166,30 @@ p {
 /* ICON */
 
 #icon {
-  width: 100%;
-  background-color: grey;
-  
+    margin-top: 50px;
+    background-color: #ddd;
 }
 
 .boxicon {
-  background-color: #f1f1f1;
-  width: 100px;
-  height:100px;
-  margin: 10px 130px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-
+    width: 100px;
+    padding: 30px;
 }
+
+.info-services {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    color: #707070;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
 
 @media screen and (max-width: 772px) {
     .nav {
@@ -186,17 +200,27 @@ p {
         width: 10em;
     }
     
-    p {
+    .flex-between {
+        justify-content: center;
+    }  
+}
+
+@media screen and (max-width: 614px) {
+    .teamimg {
+        height: 220px;
+    }
+    
+    .paragraph {
         font-size: 15px;
         line-height: 25px;
-        width: 330px;
+        width: 300px;
     }
     
     .box-team {
         padding: 0;
     }
     
-    .flex-between {
-        justify-content: center;
+    .boxicon {
+        padding: 30px 70px;
     }
 }
