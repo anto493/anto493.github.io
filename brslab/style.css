@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #fff;
 }
 
 .logo-container {
@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(91,132,240);
+  background: #5B84F0;
 }
 
 
@@ -93,7 +93,7 @@ body {
 #navbar {
   z-index: 999;
   top: -70px;
-  background-color:rgb(91,132,240);
+  background-color: #5B84F0;
   position: fixed;
   width: 100%;
   height: 70px;
@@ -112,14 +112,14 @@ body {
 
 #navbar li {
     display: inline-block;
-    color: rgb(255,255,255);
+    color: white;
     padding: 15px;
     font-size: 17px;
     font-family: "Montserrat";
 }
 
 #navbar a {
-    color: rgb(255,255,255);
+    color: white;
     text-decoration: none;
 }
 
@@ -134,7 +134,8 @@ body {
 .teamimg {
     margin-top: 50px;
     max-width: 100%;
-    height: 300px;
+    width: 400px;
+    height: auto;
 }
 
 .box-team {
