@@ -3,25 +3,28 @@
 <head>
 <title>BRS Lab</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Viga">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=nunito">
 </head>
 <body>
 
 
 
 <div id="navbar">
-    <div class="logo-nav">
-        <a href="#top"><img src="logo-esteso.svg" height="35px"></a>
+    <div class="container flex-between">
+        <div class="logo-nav">
+            <a href="#top"><img src="logo-esteso.svg" height="35px"></a>
+        </div>
+        <ul class="nav">
+            <li><a href="#team">Team</a></li>
+            <li>Projects</li>
+            <li>The Minds Behind</li>
+            <li>Contacts</li>
+        </ul>
     </div>
-    <ul class="nav">
-        <li><a href="#team">Team</a></li>
-        <li>Projects</li>
-        <li>The Minds Behind</li>
-        <li>Contacts</li>
-    </ul>
 </div>
 
 <div class="logo-container">
@@ -29,15 +32,16 @@
         <img src="logo.svg">
     </div>
 </div>
-
-
-<div class="container">
-    <div class="team wow fadeInUp" data-wow-offset="10">
-        <h3><a name="team">Team</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+    
+<section id="team">
+    <div class="container flex wow fadeInUp" data-wow-offset="10">
+        <img class="teamimg" src="img/teamimg.png" alt="team image">
+        <div class="box-team">
+            <h3>Who we are</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
     </div>
-</div>    
+</section>  
     
     
 <!-- JS SCROLL NAV -->
