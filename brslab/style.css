@@ -1,5 +1,6 @@
 body {
   background: #fff;
+  overflow: auto;
   scroll-snap-type: block mandatory;
 }
 
@@ -182,6 +183,7 @@ hr {
 /* SERVICES */
 
 #services-section {
+    scroll-snap-align:start;
     width: 100%;
 }
 
@@ -224,6 +226,7 @@ h5 {
 /* PROJECTS */
 
 #projects-section {
+    scroll-snap-align:start;
     width: 100%;
 }
 
