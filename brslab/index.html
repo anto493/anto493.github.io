@@ -127,6 +127,7 @@
 <!-- JS SCROLL NAV -->
 
 <script type="text/javascript">
+
 window.onscroll = function() {scrollFunction()};
 
 
@@ -139,6 +140,7 @@ function scrollFunction() {
         elem.style.top = "0px";
   } else {
         elem.style.top = "-80px";
+        document.getElementById("team-section").scrollIntoView({ behavior: 'smooth' });
   }
 }
 </script>
