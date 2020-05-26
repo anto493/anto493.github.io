@@ -1,13 +1,10 @@
 body {
   background: #fff;
-  width: 100%;
-  height: 100%;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
 
 .logo-container {
   width: 100%;
@@ -16,7 +13,6 @@ body {
   justify-content: center;
   align-items: center;
   background: #5B84F0;
-  scroll-snap-align: start;
 }
 
 
@@ -41,11 +37,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction:row-reverse;
-}
-
-section {
-    width: 100%;
-    scroll-snap-align: start;
 }
 
 /* Logo */
@@ -146,7 +137,9 @@ section {
 
 /* TEAM */
 
-
+#team-section {
+    width: 100%;
+}
 
 #box-team {
     padding-top: 30px;
@@ -192,6 +185,9 @@ hr {
 
 /* SERVICES */
 
+#services-section {
+    width: 100%;
+}
 
 #icons {
     padding-top: 30px;
@@ -232,6 +228,9 @@ h5 {
 
 /* PROJECTS */
 
+#projects-section {
+    width: 100%;
+}
 
 #projects {
     padding-top: 30px;
@@ -261,6 +260,44 @@ h5 {
     text-align: right;
     
 }
+
+/* CARDS */
+
+#cards-section {
+    width: 100%;
+}
+
+#cards {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.bgcards {
+    background-color: #A4BAF9;
+}
+
+.boxes {
+    margin-top: 60px;
+}
+
+.box-cards {
+    padding: 60px 0;
+}
+
+.boxcard {
+    width: 250px;
+    height: 320px;
+    background-color: #FFFF;
+    margin: 30px;
+    border-radius: 0px 20px 20px;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.boxcard:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 
 
 /* MEDIA QUERY */
