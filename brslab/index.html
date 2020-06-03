@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="css/animate.css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600">
+<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
 </head>
 <body>
 
@@ -21,16 +22,19 @@
             <li><a href="#services-section">Services</a></li>
             <li><a href="#projects-section">Projects</a></li>
             <li><a href="#cards-section">The Minds Behind</a></li>
-            <li>Contacts</li>
+            <li><a href="#contact-section">Contacts</a></li>
         </ul>
     </div>
 </div>
 
-    
-<div class="logo-container">
-    <div class="logo">
-        <img src="logo.svg" alt="logo brs lab">
-    </div>
+ <div class="logo-container">
+     <div class="placeholder"></div>
+        <div class="logo">
+            <img src="logo.svg" alt="logo brs lab">
+        </div>
+            <div class="arrow wow fadeInDown">
+            <a href="#team-section"><i class="fas fa-angle-down"></i></a>
+        </div>
 </div>
   
     
@@ -115,19 +119,113 @@
     <div class="bgcards">
         <div class="boxes container flex">
             <div class="box-cards flex">
-                <div class="boxcard flex"></div>
-                <div class="boxcard flex"></div>
-                <div class="boxcard flex"></div>
+                <!-- FIRST CARD -->
+                <a href="#cards-section"><div id="myBtn" onclick="openModal()" class="boxcard flex"></div></a>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                    <div class="flex">
+                                        <div class="info-user flex">
+                                            <img src="https://via.placeholder.com/200x200">
+                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                                <div class="box-personal-social flex">
+                                                    <div class="personal-social"><a href="https://www.facebook.com/savianoalessia"><i class="fab fa-facebook-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                <!-- SECOND CARD -->
+                <a href="#cards-section"><div id="myBtn" onclick="openModal()" class="boxcard flex"></div></a>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                    <div class="flex">
+                                        <div class="info-user flex">
+                                            <img src="https://via.placeholder.com/200x200">
+                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                                <div class="box-personal-social flex">
+                                                    <div class="personal-social"><a href="https://www.facebook.com/savianoalessia"><i class="fab fa-facebook-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                <!-- THIRD CARD -->
+                <a href="#cards-section"><div id="myBtn" onclick="openModal()" class="boxcard flex"></div></a>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                    <div class="flex">
+                                        <div class="info-user flex">
+                                            <img src="https://via.placeholder.com/200x200">
+                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                                <div class="box-personal-social flex">
+                                                    <div class="personal-social"><a href="https://www.facebook.com/savianoalessia"><i class="fab fa-facebook-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+
+
             </div>
         </div>
     </div>
 </div>
 </section>
-   
+  
+<!-- CONTACT -->
+
+<section id="contact-section">
+<div id="contact" class="wow fadeInUp" data-wow-offset="30">
+    <h2 class="container flex">Contact us</h2><hr>
+        <div class="container flex">
+            <div class="box-contact flex">
+                <div class="boxcontact flex"><i class="fab fa-facebook-square"></i></div>
+                <div class="boxcontact flex"><i class="fab fa-instagram-square"></i></div>
+                <div class="boxcontact flex"><i class="fab fa-dribbble-square"></i></div>
+                <div class="boxcontact flex"><i class="fa fa-envelope-square"></i></div>
+            </div>
+        </div>   
+</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer><p class="container">Copyright &copy; 2020 - BRS Lab, All rights reserved.</p></footer>
+
+ 
+
+<!-- JS SMOOTH SCROLL -->
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
 <!-- JS SCROLL NAV -->
 
 <script type="text/javascript">
-
 window.onscroll = function() {scrollFunction()};
 
 
@@ -140,15 +238,44 @@ function scrollFunction() {
         elem.style.top = "0px";
   } else {
         elem.style.top = "-80px";
-        document.getElementById("team-section").scrollIntoView({ behavior: 'smooth' });
   }
 }
 </script>
     
+
 <!-- JS WOW -->
+
 <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
+
+
+
+<!-- POP-UP JS MODAL -->
+
+<script>
+
+// When the user clicks the card, open the modal 
+function openModal() {
+var modal = document.getElementById("myModal");
+ modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+ var modal = document.getElementById("myModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>
