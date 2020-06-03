@@ -402,7 +402,7 @@ h5 {
  }
   
   /* The Close Button */
-  .close, {
+  .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
