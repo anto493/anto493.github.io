@@ -283,6 +283,7 @@ h5 {
 
 #cards-section {
     width: 100%;
+    filter: none;
 }
 
 #cards {
@@ -410,7 +411,7 @@ h5 {
     transition: ease 0.25s all;
   }
   
-  .close:hover, .close:focus {
+  .close:hover, .close2:hover, .close3:hover, .close:focus, .close2:focus, .close3:focus {
     -webkit-transform: rotateZ(180deg);
     transform: rotateZ(180deg);
     color: #3C3C3C;
