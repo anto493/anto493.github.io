@@ -402,7 +402,7 @@ h5 {
  }
   
   /* The Close Button */
-  .close, .close2, .close3 {
+  .close, {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -410,7 +410,7 @@ h5 {
     transition: ease 0.25s all;
   }
   
-  .close:hover, .close2:hover, .close3:hover, .close:focus, .close2:focus, .close3:focus {
+  .close:hover, .close:focus {
     -webkit-transform: rotateZ(180deg);
     transform: rotateZ(180deg);
     color: #3C3C3C;
