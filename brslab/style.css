@@ -592,7 +592,7 @@ footer p {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: black;
+        --color-background: black;
       }
       
       .logo-container {
