@@ -4,13 +4,17 @@
     --clr-1: #5B84F0;
     --clr-2: #A4BAF9;
     --clr-3: #3C3C3C;
-    --clr-4:
+    --clr-4: #707070;
   
     --background: var(--clr-light);
   }
   
 @media (prefers-color-scheme: dark) {
     :root {
+        --clr-1: #5B84F0;
+        --clr-2: #A4BAF9;
+        --clr-3: #fff;
+        --clr-4: #fff;
     --background: var(--clr-dark);
     }
   }
@@ -206,7 +210,7 @@ hr {
 
 .paragraph {
     font-family: "Nunito", sans-serif;
-    color: #707070;
+    color:var(--clr-4);
     margin-top: 20px;
     width: 400px;
     font-size: 17px;
@@ -256,7 +260,7 @@ h5 {
     font-family: "Nunito", sans-serif;
     font-size: 17px;
     line-height: 27px;
-    color: #707070;
+    color: var(--clr-4);
 }
 
 
@@ -398,7 +402,7 @@ h5 {
   .text {
     margin-top: 30px;
     font-family: "Nunito", sans-serif;
-    color: #707070;
+    color:var(--clr-4);
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
@@ -421,7 +425,7 @@ h5 {
   
   /* The Close Button */
   .close, .close2, .close3 {
-    color: #aaaaaa;
+    color:#707070;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -431,7 +435,7 @@ h5 {
   .close:hover, .close2:hover, .close3:hover, .close:focus, .close2:focus, .close3:focus {
     -webkit-transform: rotateZ(180deg);
     transform: rotateZ(180deg);
-    color: #3C3C3C;
+    color:#3C3C3C;
     text-decoration: none;
     cursor: pointer;
   }
