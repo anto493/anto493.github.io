@@ -596,7 +596,7 @@ footer p {
       }
       
       .logo-container {
-        background: #5B84F0;
+        --color-background: #5B84F0;
       }
       
       
