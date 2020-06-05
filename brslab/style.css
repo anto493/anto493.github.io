@@ -383,7 +383,7 @@ h5 {
   
   /* Modal Content */
   .modal-content {
-    background-color: var(--clr-light);
+    background-color: var(--background);
     margin: auto;
     padding: 20px;
     border-radius: 20px;
