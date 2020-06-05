@@ -1,19 +1,23 @@
 :root {
     --clr-light: #fff;
-    --clr-dark: #00100d;
+    --clr-dark: #202040;
+    --clr-1: #5B84F0;
+    --clr-2: #A4BAF9;
+    --clr-3: #3C3C3C;
+    --clr-4:
   
     --background: var(--clr-light);
   }
   
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
-      --background: var(--clr-dark);
+    --background: var(--clr-dark);
     }
   }
 
-body {
+body {  
     background: var(--background);
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 .logo-container {
@@ -23,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background: #5B84F0;
+  background: var(--clr-1);
 }
 
 .arrow {
@@ -32,7 +36,7 @@ body {
 }
 
 .arrow a {
-    color: white;
+    color: var(--clr-light);
     font-size: 50px;
 }
 
@@ -129,7 +133,7 @@ body {
 #navbar {
   z-index: 999;
   top: -70px;
-  background-color: #5B84F0;
+  background-color: var(--clr-1);
   position: fixed;
   width: 100%;
   height: 70px;
@@ -148,7 +152,7 @@ body {
 
 #navbar li {
     display: inline-block;
-    color: white;
+    color: var(--clr-light);
     padding: 15px;
     font-size: 17px;
     font-family: "Montserrat";
@@ -156,7 +160,7 @@ body {
 }
 
 #navbar a {
-    color: white;
+    color:var(--clr-light);
     text-decoration: none;
 }
 
@@ -177,12 +181,12 @@ h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 37px;
     font-weight: 700;
-    color: #3C3C3C;
+    color: var(--clr-3);
     padding: 130px 0 0 0;
 }
 
 hr {
-    border: solid 3px #5B84F0;
+    border: solid 3px var(--clr-1);
     margin-top: 12px;
     width: 75px;
 }
@@ -241,7 +245,7 @@ h5 {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 700;
-    color: #3C3C3C;
+    color: var(--clr-3);
     margin-top: 25px;
     
 }
@@ -279,7 +283,7 @@ h5 {
 .project-img {
     width: 420px;
     height: 300px;
-    background-color: #A4BAF9;
+    background-color: var(--clr-2);
     border-radius: 20px;
 }
 
@@ -305,7 +309,7 @@ h5 {
 }
 
 .bgcards {
-    background-color: #A4BAF9;
+    background-color: var(--clr-2);
 }
 
 .box-cards {
@@ -315,7 +319,7 @@ h5 {
 .boxcard {
     width: 250px;
     height: 320px;
-    background-color: #FFFF;
+    background-color: var(--clr-light);
     margin: 30px;
     border-radius: 0px 20px 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -375,7 +379,7 @@ h5 {
   
   /* Modal Content */
   .modal-content {
-    background-color: #fefefe;
+    background-color: var(--clr-light);
     margin: auto;
     padding: 20px;
     border-radius: 20px;
@@ -402,7 +406,7 @@ h5 {
 
 .personal-social a {
     margin: 15px;
-    color: #A4BAF9;
+    color: var(--clr-2);
     font-size: 40px;
  }
  
@@ -411,7 +415,7 @@ h5 {
  }
  
  .personal-social a:hover {
-     color: #5B84F0;
+     color: var(--clr-1);
      transition-duration: 0.2s;
  }
   
@@ -447,7 +451,7 @@ h5 {
 
 .boxcontact {
    margin: 20px;
-   color: #A4BAF9;
+   color: var(--clr-2);
    font-size: 50px;
 }
 
@@ -456,7 +460,7 @@ h5 {
 }
 
 .boxcontact i:hover {
-    color: #5B84F0;
+    color: var(--clr-1);
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -467,13 +471,13 @@ h5 {
 
 footer {
     margin-top: 100px;
-    background-color: #5B84F0;
+    background-color: var(--clr-2);
     height: 100px;
 }
 
 footer p {
     text-align: center;
-    color: white;
+    color:var(--clr-light);
     font-size: 15px;
     font-family: "Nunito", sans-serif;
     padding-top: 45px;  
