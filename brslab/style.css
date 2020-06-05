@@ -1,5 +1,6 @@
 body {
   background: #fff;
+  overflow:scroll;
 }
 
 .logo-container {
@@ -283,7 +284,6 @@ h5 {
 
 #cards-section {
     width: 100%;
-    filter: none;
 }
 
 #cards {
@@ -403,7 +403,7 @@ h5 {
  }
   
   /* The Close Button */
-  .close {
+  .close, .close2, .close3 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
