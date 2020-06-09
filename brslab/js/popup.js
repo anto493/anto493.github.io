@@ -19,13 +19,6 @@ span.onclick = function() {
   document.body.style.overflow = "scroll";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-    document.body.style.overflow = "scroll";
-  }
-}
 
 
  // Get the modal2
@@ -49,14 +42,6 @@ window.onclick = function(event) {
    document.body.style.overflow = "scroll";
  }
  
- // When the user clicks anywhere outside of the modal, close it2
- window.onclick = function(event) {
-   if (event.target == modal2) {
-     modal2.style.display = "none";
-     document.body.style.overflow = "scroll";
-   }
- }
-
 
  // Get the modal3
  var modal3 = document.getElementById("myModal3");
@@ -81,7 +66,9 @@ window.onclick = function(event) {
  
  // When the user clicks anywhere outside of the modal, close it3
  window.onclick = function(event) {
-   if (event.target == modal3) {
+   if (event.target==myModal|| event.target==myModal2|| event.target == myModal3) {
+     modal.style.display ="none";
+     modal2.style.display = "none";
      modal3.style.display = "none";
      document.body.style.overflow = "scroll";
    }

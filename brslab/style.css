@@ -1,6 +1,6 @@
 :root {
     --clr-light: #fff;
-    --clr-dark: #202040;
+    --clr-dark: #181b25;
     --clr-1: #5B84F0;
     --clr-2: #A4BAF9;
     --clr-3: #3C3C3C;
@@ -11,13 +11,14 @@
   
 @media (prefers-color-scheme: dark) {
     :root {
-        --clr-1: #5B84F0;
-        --clr-2: #A4BAF9;
+        --clr-1: #A4BAF9;
+        --clr-2: #5B84F0;
         --clr-3: #fff;
         --clr-4: #fff;
     --background: var(--clr-dark);
     }
-  }
+
+}
 
 body {  
     background: var(--background);
@@ -31,7 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background: var(--clr-1);
+  background: var(--clr-2);
 }
 
 .arrow {
@@ -43,7 +44,6 @@ body {
     color: var(--clr-light);
     font-size: 50px;
 }
-
 
 .container {
     width: 80%;
@@ -137,7 +137,7 @@ body {
 #navbar {
   z-index: 999;
   top: -70px;
-  background-color: var(--clr-1);
+  background-color: var(--clr-2);
   position: fixed;
   width: 100%;
   height: 70px;
@@ -190,7 +190,7 @@ h2 {
 }
 
 hr {
-    border: solid 3px var(--clr-1);
+    border: solid 3px var(--clr-2);
     margin-top: 12px;
     width: 75px;
 }
@@ -323,7 +323,7 @@ h5 {
 .boxcard {
     width: 250px;
     height: 320px;
-    background-color: var(--clr-light);
+    background-color: var(--background);
     margin: 30px;
     border-radius: 0px 20px 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
