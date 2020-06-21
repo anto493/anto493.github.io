@@ -2,6 +2,23 @@
 <html>
 <head>
 <title>BRS Lab</title>
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="style.css">
@@ -47,7 +64,7 @@
         <img class="teamimg" src="img/teamimg.png" alt="team image">
         <div class="description">
             <h5>Who we are</h5>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="paragraph">We're three professionals who combine our diverse backgrounds and areas of expertise, working in team to find innovative solutions to our clients' complex challenges.</p>
         </div>
     </div>
 </div> 
@@ -62,20 +79,30 @@
     <div class="boxes container flex">
         <div class="boxicon flex">
             <picture>
-            <source srcset="img/icon_ui.svg" media="(prefers-color-scheme: dark)"/>
-            <source srcset="img/icon_web.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-            <img loading="lazy" src="img/icon_web.svg" alt="web design icon" height="100px">
+                <source srcset="img/icon_web_dark.svg" media="(prefers-color-scheme: dark)"/>
+                <source srcset="img/icon_web.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+                <img loading="lazy" src="img/icon_web.svg" alt="web design icon" height="100px">
             </picture>
             <h5 class="title-services">Web Design</h5>
             <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </div>
-         <div class="boxicon flex"><img src="img/icon_ui.svg" alt="ui/ux icon" height="100px">
-             <h5 class="title-services">UI/UX Design</h5>
-             <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+         <div class="boxicon flex">
+            <picture>
+                <source srcset="img/icon_ui_dark.svg" media="(prefers-color-scheme: dark)"/>
+                <source srcset="img/icon_ui.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+                <img loading="lazy" src="img/icon_ui.svg" alt="ui/ux icon" height="100px">
+            </picture>
+            <h5 class="title-services">UI/UX Design</h5>
+            <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
          </div>
-        <div class="boxicon flex"><img src="img/icon_dev.svg" alt="development icon" height="100px">
-             <h5 class="title-services">Development</h5>
-             <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+        <div class="boxicon flex">
+            <picture>
+                <source srcset="img/icon_dev_dark.svg" media="(prefers-color-scheme: dark)"/>
+                <source srcset="img/icon_dev.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+                <img loading="lazy" src="img/icon_dev.svg" alt="development icon" height="100px">
+            </picture>
+            <h5 class="title-services">Development</h5>
+            <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </div>
     </div>
 </div>
@@ -89,27 +116,39 @@
     <h2 class="container flex">Projects</h2><hr>
     <div class="boxes-project container flex">
         <div class="box-project flex">
-            <div class="project-img"></div>
-                <div class="box-text">
-                    <h5>Project name</h5>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="column">
+                <div class="project-img">
+                    <img class="mac" src="img/mockup-getIcon.gif" alt="get icon project">
                 </div>
+            </div>
+            <div class="box-text">
+                <h5>Get Icon</h5>
+                <p class="paragraph">Get Icon is an innovative resource that offers knowledge and tools to designers to make their own workflows easier, providing elements that allow them to overcome obstacles in the design phase, in order to achieve results quickly and fun.</p>
+            </div>
         </div>
                 
         <div class="box-project flex-reverse">
-                <div class="project-img"></div>
-                <div class="box-text">
-                    <h5 class="sx">Project name</h5>
-                    <p class="paragraph sx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="column">
+                <div class="project-img">
+                    <img class="iphone" src="img/mockup-music" alt="melodya project">
                 </div>
+            </div>
+            <div class="box-text">
+                <h5 class="sx">Melodya</h5>
+                <p class="paragraph sx">Melodya is an application born to give a new look to the standard music player. So softly, minimal and colorful at the same time. You will be firstly interfaced with an overview which shows the most popular songs of the moment. You can create your personal playlists with your favourite songs, join them thanks to the lyrics and share them on socials.</p>
+            </div>
         </div>
                 
         <div class="box-project flex">
-                <div class="project-img"></div>
-                <div class="box-text">
-                    <h5>Project name</h5>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="column">
+                <div class="project-img">
+                    <img class="ipad" src="img/mockup-life" alt="life project">
                 </div>
+            </div>
+            <div class="box-text">
+                <h5>L.I.F.E.</h5>
+                <p class="paragraph">LIFE (Live an Intelligent Food Experience) combines multiple elements of a traditional kitchen in a single storage unit: gathered in it, you will find fridge, freezer, pantry, and a vegetable garden. Its external semi-matt frosted glass conceals within itself an interactive surface, a touchscreen display that allows you to dialogue with LIFE and monitor its functions.</p>
+            </div>
         </div>
     </div>
 </div> 
@@ -125,21 +164,32 @@
         <div class="boxes container flex">
             <div class="box-cards flex">
                 <!-- FIRST CARD -->
-                <div id="myBtn" class="boxcard flex"></div>
+                <div id="myBtn" class="boxcard flex">
+                    <div class="card-user column">
+                        <img src="img/foto-tina.svg" alt="tina picture">
+                        <h3>Concetta Ramaglia</h3>
+                        <h4>Web Designer</h4>
+                    </div>
+                </div>
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
                                     <div class="flex">
-                                        <div class="info-user flex">
-                                            <img src="https://via.placeholder.com/200x200">
-                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                        <div class="info-user column">
+                                            <img src="img/foto-tina.svg" alt="tina picture">
+                                            <h3>Concetta Ramaglia</h3>
+                                            <h4>Web Designer</h4>
+                                            <p class="text">Hi! I'm Concetta, but everyone calls me Tina.
+                                                I design things for the web. My goal is always to build products that offer magical digital experiences. 
+                                                My inspiration is powered by technology, design, photography and art.
+                                            </p>
                                                 <div class="box-personal-social flex">
-                                                    <div class="personal-social"><a href="https://www.facebook.com/savianoalessia"><i class="fab fa-facebook-square"></i></a></div>
-                                                    <div class="personal-social"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
-                                                    <div class="personal-social"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
-                                                    <div class="personal-social"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/tinaramaglia/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.instagram.com/tina.ramaglia/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://dribbble.com/TinaRamaglia" target="_blank"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="mailto:tinaramaglia.tr@gmail.com"><i class="fa fa-envelope-square"></i></a></div>
                                                 </div>
                                         </div>
                                     </div>
@@ -147,21 +197,31 @@
                         </div>
 
                 <!-- SECOND CARD -->
-                <div id="myBtn2" class="boxcard flex"></div>
+                <div id="myBtn2" class="boxcard flex">
+                    <div class="card-user column">
+                        <img src="img/foto-anto.svg" alt="antonella picture">
+                        <h3>Antonella Basso</h3>
+                        <h4>Developer</h4>
+                    </div>
+                </div>
                     <!-- The Modal -->
                     <div id="myModal2" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close2">&times;</span>
                                     <div class="flex">
-                                        <div class="info-user flex">
-                                            <img src="https://via.placeholder.com/200x200">
-                                            <p class="text">ANTONELLA BASSO SUON O BASS</p>
+                                        <div class="info-user column">
+                                            <img src="img/foto-anto.svg" alt="antonella picture">
+                                            <h3>Antonella Basso</h3>
+                                            <h4>Developer</h4>
+                                            <p class="text">Hello world, I'm Antonella!<br> 
+                                                Technology and innovation fascinate me. I am always thinking of new smart scenarios and solutions to combine your needs with high-end design and functionality.
+                                            </p>
                                                 <div class="box-personal-social flex">
-                                                    <div class="personal-social"><a href="https://www.facebook.com/tina.ramaglia"><i class="fab fa-linkedin"></i></a></div>
-                                                    <div class="personal-social"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
-                                                    <div class="personal-social"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
-                                                    <div class="personal-social"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/antonella-basso/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.instagram.com/colorsoncolors.jpg" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://dribbble.com/antonellabasso" target="_blank"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="mailto:a.basso17@gmail.com"><i class="fa fa-envelope-square"></i></a></div>
                                                 </div>
                                         </div>
                                     </div>
@@ -169,21 +229,33 @@
                         </div>
 
                 <!-- THIRD CARD -->
-                <div id="myBtn3" class="boxcard flex"></div>
+                <div id="myBtn3" class="boxcard flex">
+                    <div class="card-user column">
+                        <img src="img/foto-ale.svg" alt="alessia picture">
+                        <h3>Alessia Saviano</h3>
+                        <h4>UI/UX Designer</h4>
+                    </div>
+                </div>
                     <!-- The Modal -->
                     <div id="myModal3" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close3">&times;</span>
                                     <div class="flex">
-                                        <div class="info-user flex">
-                                            <img src="https://via.placeholder.com/200x200">
-                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                        <div class="info-user column">
+                                            <img srcset="img/foto-ale.svg" alt="alessia picture">
+                                            <h3>Alessia Saviano</h3>
+                                            <h4>UI/UX Designer</h4>
+                                            <p class="text">Hi! I'm Alessia, class '95.<br>
+                                                I'm always looking for new design worlds to improve every day my skills.
+                                                Determined to bring deadlines and to finish the assigned tasks.
+                                                Tv series & videogames addicted.
+                                            </p>
                                                 <div class="box-personal-social flex">
-                                                    <div class="personal-social flex"><a href="https://www.facebook.com/tina.ramaglia"><i class="fab fa-linkedin"></i></a></div>
-                                                    <div class="personal-social flex"><a href="https://www.instagram.com/tina.ramaglia/"><i class="fab fa-instagram-square"></i></a></div>
-                                                    <div class="personal-social flex"><a href="https://www.dribbble.com/TinaRamaglia"><i class="fab fa-dribbble-square"></i></a></div>
-                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/tinaramaglia/"><i class="fa fa-envelope-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/alessiasaviano/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.instagram.com/areshia_21/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://dribbble.com/alessiasaviano" target="_blank"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="mailto:saviano.ale@gmail.com"><i class="fa fa-envelope-square"></i></a></div>
                                                 </div>
                                         </div>
                                     </div>
